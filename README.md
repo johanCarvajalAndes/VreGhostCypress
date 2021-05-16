@@ -37,10 +37,12 @@ Repositorio con ghost pruebas de regresion.
 1. Realice la ejecucion de los escenarios de pruebas en las 4 carpetas, esto genera las imagenes para la comparacion. (la ejecucion de estas pruebas se describe en el Readme dentro de cada carpeta) (se dejaron imagenes de prueba por si no desea ejecutarlas)
 
 ## Ejecucion de Backstop
+    La ejecución de Backstop como se explico anteriormente fue automatizada por medio de un script en el lenguaje Python, este script se encarga de correr los test una vez los pantallazos han sido tomados , posteriormente se inicia el servidor respectivo de los reportes html y se le indica a la herramienta de correr el comando "Backstop test", encargado de ejecturar las pruebas de regresión visual a las url de los reportes indicados en el archivo backstop.json. (Ver carpeta Backstop(Backstop/backstop.json))
 
       py scrypt.py
       
 ### Revision del reporte.
+    Al ejecutar el script anterior, en su navegador se desplegaran las dos paginas de las dos versiones del software probado , y una tercera correrpondiente al analisis de regresión visual ejecutado por la herramienta.
 
 ## Ejecucion de ResembleJs
 
