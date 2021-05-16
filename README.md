@@ -16,6 +16,35 @@ Repositorio con ghost pruebas de regresion.
 
   1. index.js : contiene la logica de Resemblesjs
   2. report.html: contiene el reporte generado en html por Resemblesjs
+  3. script.py: contiene el script en python para la ejecucion de las pruebas de Backstop
+
+## Prerequisitos:
+  1. Contar con ghost 3.3.0 Instalado y en ejecucion.
+  2. Contar con ghost 3.42.5 Instalado y en ejecucion. (ver documentacion de ghost: https://ghost.org/docs/ )
+  3. Ejecute npm install en la carpeta origen de este proyecto para instalar las librerias necesarias para ResembleJs
+  4. Tener Python instalado para ejecutar el script de Backstop.
+  5. Tener Node instalado para ejecutar el script de ResembeleJs
+  6. Tener Backstop instalado: npm install -g backstopjs
+  7. Cumplir con los prerequisitos para la ejecucion de las pruebas planteados en cada una de las carpetas de pruebas.
+  
+## Pasos previos para el analisis de regresión visual:
+
+1. Realice la ejecucion de los escenarios de pruebas en las 4 carpetas, esto genera las imagenes para la comparacion. (la ejecucion de estas pruebas se describe en el Readme dentro de cada carpeta) (se dejaron imagenes de prueba por si no desea ejecutarlas)
+
+## Ejecucion de Backstop
+
+      py scrypt.py
+      
+### Revision del reporte.
+
+## Ejecucion de ResembleJs
+
+      node index.js
+
+### Revision del reporte
+
+    despliegue en su navegador el archivo report.html de la raiz de este proyecto
+
 
 
 
