@@ -1,0 +1,49 @@
+{
+    "url": "https://ghost.org/docs/",
+    "browsers": [
+        "chromium",
+        "webkit",
+        "firefox"
+    ],
+    "scenarios":[
+        "escenario1",
+        "escenario2",
+        "escenario3",
+        "escenario4",
+        "escenario5",
+        "escenario6",
+        "escenario7",
+        "escenario8",
+        "escenario9",
+        "escenario10",
+        "escenario11",
+        "escenario12",
+        "escenario13",
+        "escenario14",
+        "escenario15",
+        "escenario16",
+        "escenario17",
+        "escenario18",
+        "escenario19",
+        "escenario20"
+      ],
+    "options": {
+        "output": {
+            "errorColor": {
+                "red": 255,
+                "green": 0,
+                "blue": 255
+            },
+            "errorType": "movement",
+            "largeImageThreshold": 1200,
+            "useCrossOrigin": false,
+            "outputDiff": true
+        },
+        "scaleToSameSize": true,
+        "ignore": "antialiasing"
+    },
+    "viewportHeight": 600,
+    "viewportWidth": 800,
+    "rutaV1": "pruebasKrakenAndes3.3.0/tvr/3.3.0",
+    "rutaV2": "pruebasKrakenAndes3.42.5/tvr/3.42.5"
+}

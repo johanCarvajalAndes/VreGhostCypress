@@ -1,0 +1,16 @@
+{
+    "1": {
+        "id": "1e50370fdb7eea3fe3e8",
+        "model": "Web",
+        "type": "WEB_DEVICE",
+        "config": {
+            
+        }
+    },
+    "2": {
+        "id": "375ac485db3ee652f794",
+        "model": "Web",
+        "type": "WEB_DEVICE",
+        "config": {}
+    }
+}

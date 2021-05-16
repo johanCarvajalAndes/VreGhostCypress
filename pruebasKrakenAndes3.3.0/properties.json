@@ -1,0 +1,43 @@
+{
+    "@user1": {
+        "USER1": "js.segura@uniandes.edu.co",
+        "PASSWORD1": "M3iqQFS!e_PGFyD",
+        "URI": "http://192.168.1.102:2368/ghost/#/signin",
+        "EDITORPOST":"http://192.168.1.102:2368/ghost/#/editor/post",
+        "POST":"http://192.168.1.102:2368/ghost/#/posts",
+        "PAGINAFRONT":"http://192.168.1.102:2368/",
+        "POSTPUBLISHET":"http://192.168.1.102:2368/ghost/#/posts?type=published",
+        "TAGS":"http://192.168.1.102:2368/ghost/#/tags",
+        "TAGSNEW":"http://192.168.1.102:2368/ghost/#/tags/new",
+        "PAGES":"http://www.192.168.1.102:2368/ghost/#/pages"
+    },
+    "@user2": {
+        "USER1": "js.segura@uniandes.edu.co",
+        "PASSWORD1": "M3iqQFS!e_PGFyD",
+        "URI": "http://192.168.1.102:2368/ghost/#/signin",
+        "POST":"http://192.168.1.102:2368/ghost/#/posts",
+        "PAGES":"http://www.192.168.1.102:2368/ghost/#/pages"
+    },
+    "@user3": {
+        "USER1": "js.segura@uniandes.edu.co",
+        "PASSWORD1": "M3iqQFS!e_PGFyD",
+        "URI": "http://192.168.1.102:2368/ghost/#/signin",
+        "WELCOME":"http://192.168.1.102:2368/welcome/",
+        "PAGES":"http://www.192.168.1.102:2368/ghost/#/pages"
+    },
+    "@user4": {
+        "USER1": "js.segura@uniandes.edu.co",
+        "PASSWORD1": "M3iqQFS!e_PGFyD",
+        "URI": "http://192.168.1.102:2368/ghost/#/signin",
+        "WELCOME":"http://192.168.1.102:2368/welcome/",
+        "PAGES":"http://www.192.168.1.102:2368/ghost/#/pages",
+        "GHOSTNICKNAME":"jhonatan"
+    },
+    "@user5": {
+        "USER1": "js.segura@uniandes.edu.co",
+        "PASSWORD1": "M3iqQFS!e_PGFyD",
+        "URI": "http://192.168.1.102:2368/ghost/#/signin",
+        "TAGS":"http://192.168.1.102:2368/ghost/#/tags",
+        "PAGES":"http://www.192.168.1.102:2368/ghost/#/pages"
+    }
+}
