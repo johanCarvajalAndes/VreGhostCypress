@@ -1,0 +1,49 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Inicio_0__0_default.png",
+        "test": "../bitmaps_test/20210516-080637/backstop_default_Inicio_0__0_default.png",
+        "selector": "",
+        "fileName": "backstop_default_Inicio_0__0_default.png",
+        "label": "Inicio",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.3.0.html",
+        "referenceUrl": "file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.42.5.html",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_FILE_NOT_FOUND at file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.3.0.html",
+        "error": "Reference file not found /Users/abaron/Documents/Unified/Backstop/backstop_data/bitmaps_reference/backstop_default_Inicio_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Paleta_de_colores_0__0_default.png",
+        "test": "../bitmaps_test/20210516-080637/backstop_default_Paleta_de_colores_0__0_default.png",
+        "selector": "",
+        "fileName": "backstop_default_Paleta_de_colores_0__0_default.png",
+        "label": "Paleta de colores",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.3.0.html",
+        "referenceUrl": "file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.42.5.html",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_FILE_NOT_FOUND at file:///Users/abaron/Documents/Unified/PruebasGhostE2E/cypress/Report3.3.0.html",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
