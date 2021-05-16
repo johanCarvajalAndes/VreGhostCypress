@@ -17,7 +17,11 @@ Repositorio con ghost pruebas de regresion.
   1. index.js : contiene la logica de Resemblesjs
   2. report.html: contiene el reporte generado en html por Resemblesjs
   3. script.py: contiene el script en python para la ejecucion de las pruebas de Backstop
-  4. Describir los archivos principales de Backsto.............................................AQUIIIII
+  4. backstop.json: contiene los indicaciones de los reportes html que se van a comparar , alli se indican configuraciones iniciales para que las pruebas corran.
+  5. Report1.html: Reporte html encargado de albergar las rutas de los pantallazos tomados con ayuda de cypress , este archivo corresponde a la version 3.3.0 del ghost.
+  6. Report2.html: Reporte html encargado de albergar las rutas de los pantallazos tomados con ayuda de cypress , este archivo corresponde a la version 3.42.5 del ghost.
+  7. script.py: archivo de automatización escrito en python con el fin de levantar los servidores de los reportes y ejecutar las pruebas en backstop.
+
 
 ## Prerequisitos:
   1. Contar con ghost 3.3.0 Instalado y en ejecucion.
