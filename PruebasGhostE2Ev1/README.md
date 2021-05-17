@@ -8,7 +8,7 @@ Entrega de Pruebas E2E andes
 
 
 ## Pre Requisitos: 
-1. tener instalado Cypress : https://www.cypress.io/
+1. tener instalado Cypress : https://www.cypress.io/ utilizar la versión 7.3.0
 2. Ghost: https://ghost.org/docs/install/
 3. Crear un usuario administrador en Ghost
 
