@@ -34,7 +34,7 @@ Repositorio con ghost pruebas de regresion.
   
 ## Pasos previos para el analisis de regresión visual:
 
-1. Realice la ejecucion de los escenarios de pruebas en las 4 carpetas, esto genera las imagenes para la comparacion. (la ejecucion de estas pruebas se describe en el Readme dentro de cada carpeta) (se dejaron imagenes de prueba por si no desea ejecutarlas)
+1. Realice la ejecucion de los escenarios de pruebas en las 4 carpetas, esto genera las imagenes para la comparacion. (la ejecucion de estas pruebas se describe en el Readme dentro de cada carpeta) (se dejaron imagenes de prueba en kraken por si no desea ejecutarlas)
 
 ## Ejecucion de Backstop
     La ejecución de Backstop como se explico anteriormente fue automatizada por medio de un script en el lenguaje Python, este script se encarga de correr los test una vez los pantallazos han sido tomados , posteriormente se inicia el servidor respectivo de los reportes html y se le indica a la herramienta de correr el comando "Backstop test", encargado de ejecturar las pruebas de regresión visual a las url de los reportes indicados en el archivo backstop.json. (Ver carpeta Backstop(Backstop/backstop.json))
